@@ -1,50 +1,77 @@
-# Welcome to your Expo app 👋
+# 📌 Movies21 - Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[![GitHub contributors](https://img.shields.io/github/contributors/Dwifakhri/movies21-app?style=for-the-badge&color=blue)](https://github.com/Dwifakhri/orbittechindo-mobile/graphs/contributors)
 
-## Get started
+**Movies21-app** is a mobile application that displays a list of now-playing movies.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Introduction  
+Movies21-app is a **mobile application** built using **React Native** and **Expo**. It fetches movie data from **TMDB API** and allows users to:  
+✅ Browse now-playing movies  
+✅ View detailed information about movies  
+✅ Search for movies by keywords  
+✅ Authenticate users  
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 🛠️ Tech Stack & Tools  
+- **React Native**: For building the mobile UI  
+- **Expo**: For easy mobile development and deployment  
+- **Expo Router**: For handling navigation  
+- **Formik**: For form validation  
+- **TanStack Query**: For handling HTTP requests  
+- **React Native Async Storage**: For storing user data securely  
+- **Tailwind CSS**: For styling  
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## ⚡ Quick Start  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+### **1️⃣ Clone the Repository**  
+```sh
+git clone https://github.com/Dwifakhri/orbittechindo-mobile.git
+cd orbittechindo-mobile
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### **2️⃣ Install Dependencies**  
+```sh
+npm install
+```
 
-## Learn more
+### **3️⃣ Install Expo CLI (if not installed)**  
+```sh
+npm install -g expo-cli
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### **4️⃣ Start the Development Server**  
+```sh
+npx expo start
+```
+This will open Expo DevTools in your browser.  
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### **5️⃣ Run the App on Your Device**  
+- **On Android**:  
+  - Install the **Expo Go** app from the Play Store  
+  - Scan the QR code from Expo DevTools  
 
-## Join the community
+- **On iOS**:  
+  - Use the **Expo Go** app (for development)  
+  - Or run on an iOS simulator using Xcode  
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🏗️ Building for Production  
+To generate an APK or IPA file, use Expo’s build commands:  
+```sh
+eas build --platform android
+```
+or  
+```sh
+eas build --platform ios
+```
+Make sure you have [Expo Application Services (EAS)](https://expo.dev/eas) configured.  
+
+---
+
+Now your README includes **Expo support** for mobile development! 🚀
